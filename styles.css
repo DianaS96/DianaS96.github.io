@@ -55,3 +55,10 @@ a:hover {
     font-family: Roboto Slab;
 
 }
+
+.button_social-media {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+
+}
