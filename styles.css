@@ -1,6 +1,6 @@
 .navigation {
     text-align: center;
-    background-color:#ebe7e7;
+    background-color:rgb(200, 200, 200);
     font-family: Montserrat;
     letter-spacing: 2px;
 
@@ -15,6 +15,8 @@
 
 .navig {
     margin: auto;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
 }
 
 .navig a {
@@ -23,7 +25,7 @@
 .navig1 {
     margin: auto;
     display: inline-block;
-    background-color: #F2F2F2;
+    background-color: rgb(200, 200, 200);
     text-transform: uppercase;
     font-family: Inter,Helvetica Neue,Helvetica,sans-serif;
     font-weight: 600;
@@ -39,26 +41,55 @@ a:link {
 }
 
 a:visited {
-    color: #8F0B50;
+    color: #362e32;
 }
 
 a:hover {
-    color: #3F02D8;
+    color: #1d263f;
 }
 
+.photo_me {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 100%;
+    border-radius: 50%;
+}
+
+.content {
+    background-image: url('photos/programming.jpg');
+    background-size: 98em;
+    background-repeat: no-repeat;
+    padding-top: 500px;
+    padding-bottom: 490px;
+}
 
 .signature {
     text-align: center;
     color: #BEBEBE;
-    padding-top: 10px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
     line-height: 0.8px;
     font-family: Roboto Slab;
 
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #3c3f41;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #3c4143;
 }
 
-.button_social-media {
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
+.contacts {
+    margin: auto;
+}
+
+.contacts1 {
+    margin: auto;
+    display: inline-block;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
 
 }
