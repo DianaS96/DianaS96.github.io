@@ -68,6 +68,7 @@ a:hover {
     background: transparent no-repeat;
     background-position: top;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .signature {
