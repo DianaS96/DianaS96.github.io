@@ -1,0 +1,60 @@
+.timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.timeline .timeline-body {
+  position: relative;
+  background-color: #f2f3f7;
+  margin-left: 100px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 0;
+}
+.timeline .timeline-body:after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  left: -4px;
+  top: 0;
+}
+.timeline .timeline-body .timeline-item {
+  position: relative;
+}
+.timeline .timeline-body .timeline-item:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 4px solid black;
+  background-color: white;
+  position: absolute;
+  left: -16px;
+  top: 4px;
+  z-index: 9;
+}
+.timeline .timeline-body .timeline-item .content {
+  margin: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px dashed #555;
+}
+.timeline .timeline-body .timeline-item .content .title {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-family: "Quicksand", Arial, sans-serif;
+}
+.timeline .timeline-body .timeline-item .content .period-of-employment {
+  font-weight: 100;
+  font-size: 20px;
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #818181;
+}
+.timeline .timeline-body .timeline-item .content p {
+  font-family: "Quicksand", Arial, sans-serif;
+}
+.timeline .timeline-body .timeline-item .content .list-description {
+  font-family: "Quicksand", Arial, sans-serif;
+}
+
+/*# sourceMappingURL=timeline.css.map */

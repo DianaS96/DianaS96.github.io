@@ -1,29 +1,54 @@
 <!doctype html>
 <html lang="ru">
-  <head>
+    <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="styles.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
-    <title>Контакты</title>
-  </head>
-  <body>
-      <nav class="navigation">
-          <ul class="navig">
-              <li class="navig1"><a href="https://dianas96.github.io/index.html">Обо мне</a></li>
-              <li class="navig1"><a href="https://dianas96.github.io/карьера.html">Карьера</a></li>
-              <li class="navig1"><a href="https://dianas96.github.io/контакты.html">Контакты</a></li>
-          </ul>
-      </nav>
-  </body>
-  <footer class="signature">
-      <ul>
-          <a class="button_social-media" target="_blank" href="https://github.com/DianaS96">
-            <img src="icons/github.png">
-          </a>
-      </ul>  
-    <p>email: diana.sibagatullina96@gmai.com</p>
-      <p>Telegram: @Diana_s96</p>
-  </footer>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="styles.css" type="text/css" media="screen, projection">
+
+        <title>Контакты</title>
+    </head>
+    <body>
+        <nav class="navigation">
+            <ul class="navig">
+                <li class="navig1"><a href="https://dianas96.github.io/index.html">Начало</a></li>
+                <li class="navig1"><a href="https://dianas96.github.io/карьера.html">Обо мне</a></li>
+                <li class="navig1"><a href="https://dianas96.github.io/контакты.html">Контакты</a></li>
+            </ul>
+        </nav>
+        
+        <form action='index.php' method="POST">
+        <p>Имя:</p>
+        <input type="text" name="name">
+        <p>Сообщение:</p>
+        <textarea name="text"></textarea>
+        <p>Email:</p>
+        <input type="text" name="email">
+        <p>Контактный телефон:</p>
+        <input type="text" name="phone">
+        <input type="submit" value="Отправить" name="submit" onclick="return Formdata(this.form)">
+        </form>
+
+    </body>
+    <footer class="signature">
+        <ul class="contacts">
+            <li class="contacts1"><a class="button_social-media" target="_blank" href="https://github.com/DianaS96">
+                <img src="https://github.com/fluidicon.png" alt="Гитхаб" width="30" height="30"></a>
+            </li>
+
+            <li class="contacts1"><a class="button_social-media" target="_blank" href="https://t.me/Diana_s96">
+                <img src="icons/telegram.png" alt="Телега" width="30" height="30"></a>
+            </li>
+
+            <li class="contacts1"><a class="button_social-media" target="_blank" href="https://wa.me/79052197589">
+                <img src="icons/whatsup.png" alt="Ватсапп" width="30" height="30"></a>
+            </li>
+
+            <li class="contacts1"><a class="button_social-media" target="_blank" href="mailto:diana.sibagatullina96@gmail.com">
+                <img src="icons/gmail.png" alt="Мыло" width="30" height="30"></a>
+            </li>
+
+        </ul>
+    </footer>
 </html>
+
