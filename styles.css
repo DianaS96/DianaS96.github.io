@@ -108,3 +108,35 @@ a:hover {
     height: 10em;
 }
 
+body {
+    background: url(photos/programming4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    position: relative;
+    margin: 100px 0px 0 40em;
+
+    background-color: #f2f3f7;
+    opacity: 0.9;
+
+}
+.site-header {
+    margin-left: 2em;
+    margin-bottom: 10em;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+footer {
+    margin-top: auto;
+}
