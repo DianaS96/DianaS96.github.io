@@ -106,7 +106,9 @@ a:visited {
     background-size: cover;
 }
 
-
+.btn-add-space {
+    margin-right: 0.5rem!important;
+}
 /*body {
     position: relative;
 }
