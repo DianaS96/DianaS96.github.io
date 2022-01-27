@@ -7,7 +7,7 @@ body {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     min-width: 320px;
-    color: black;
+    color: #676a6c;
     background-color: white;
 }
 
@@ -39,6 +39,10 @@ a:visited {
     font-weight: 550;
     text-transform: uppercase;
 
+}
+
+.text-center {
+    text-align: center;
 }
 
 .main-menu li a::after {
@@ -85,11 +89,8 @@ a:visited {
     display: block;
 }
 
-.footer-icons a {
+ul.contacts li {
     display: inline-block;
-    font-size: 20px;
-    margin-right: 15px;
-
 }
 
 .photo_me {
@@ -100,154 +101,22 @@ a:visited {
     border-radius: 30%;
 }
 
+.photo_me1 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 0% 100%;
+    border-radius: 30%;
+}
 
 .jumbotron {
-    background-image: url("photos/desk.jpg");
-    background-size: cover;
+    background-color: white;
 }
 
 .btn-add-space {
     margin-right: 0.5rem!important;
 }
-/*body {
-    position: relative;
+
+.gray-section {
+    background: #f4f4f4;
 }
-.navigation {
-    text-align: center;
-    background-color:rgb(200, 200, 200);
-    font-family: Montserrat;
-    letter-spacing: 2px;
-
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: #3c4143;
-
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #3c4143;
-}
-
-.navig {
-    margin: auto;
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
-    position: relative;
-}
-
-.navig a {
-    text-decoration: none;
-}
-.navig1 {
-    margin: auto;
-    display: inline-block;
-    background-color: rgb(200, 200, 200);
-    text-transform: uppercase;
-    font-family: Inter,Helvetica Neue,Helvetica,sans-serif;
-    font-weight: 600;
-    font-size: 1.4rem;
-    letter-spacing: .05em;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-a:link {
-    display: inline-block;
-    color: #4D4D4D;
-}
-
-a:visited {
-    color: #362e32;
-}
-
-a:hover {
-    color: #1d263f;
-}
-
-.photo_me {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    object-position: 0% 100%;
-    border-radius: 50%;
-}
-
-.background_photo_main {
-    display: block;
-    width: 100%;
-    padding-top: -20px;
-    vertical-align: top;
-    background: transparent no-repeat;
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.signature {
-    text-align: center;
-    color: #BEBEBE;
-    background-color: rgb(44, 44, 44);
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
-    line-height: 0.8px;
-    font-family: Roboto Slab;
-
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: #3c3f41;
-
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #3c4143;
-}
-.contacts {
-    margin: auto;
-}
-
-.contacts1 {
-    margin: auto;
-    display: inline-block;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-}
-
-.main1 {
-    background-color: rgba(248, 247, 216, 0.7);
-    top: 10em;
-    left: 54em;
-    width: 45em;
-    height: 10em;
-}
-
-body {
-    background: url(photos/programming4.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100% 100%;
-
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.content {
-    position: relative;
-    margin: 100px 0px 0 40em;
-
-    background-color: #f2f3f7;
-    opacity: 0.9;
-
-}
-.site-header {
-    margin-left: 2em;
-    margin-bottom: 10em;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: baseline;
-}
-
-footer {
-    margin-top: auto;
-}
-*/
