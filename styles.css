@@ -102,11 +102,13 @@ ul.contacts li {
 }
 
 .photo_me1 {
-    width: 100%;
+    width: 120px;
     height: auto;
     object-fit: cover;
     object-position: 0% 100%;
     border-radius: 30%;
+    float: right;
+    align-content: center;
 }
 
 .jumbotron {
